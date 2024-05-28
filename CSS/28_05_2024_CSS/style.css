@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-200: rgb(17, 158, 223);
+  --default: 220px;
+  
+}
+
+#box {
+  width: var(--default);
+  height: var(--default);
+  background-color: var(--color-200);
+  border: 2px solid #423f3f;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+/* ul > li > p {
+  color: orange;
+} */
+
+ul p{
+  color: var(--color-200)
+}
+
+ul .first{
+  color: blue
+}
+
+#box:hover{
+  background-color: green;
+}
+
+#box::before{
+  content: "- "
+}
