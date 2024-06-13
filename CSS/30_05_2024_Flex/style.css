@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: #fcef03;
+  --blue: #51bfdd;
+  --black: #111111;
+  --white: #ececec;
+  --base-font: "Rubik", sans-serif;
+  --heading-font: "Rubik Glitch", system-ui;
+  --spacing: 20px;
+}
+
+body {
+  font-family: var(--base-font);
+  padding: var(--spacing);
+  background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing);
+  flex-wrap: wrap;
+  padding: var(--spacing);
+}
+
+header ul {
+  display: flex;
+  gap: var(--spacing);
+}
+
+header > img {
+  height: 100px;
+  width: auto;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+  text-align: justify;
+  padding: var(--spacing);
+}
+
+#gallery {
+  padding: var(--spacing);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
+
+#gallery > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery li {
+  height: 300px;
+  flex-grow: 1;
+  overflow: hidden;
+
+}
+
+#gallery img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: 2s;
+}
+
+#gallery img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  padding: var(--spacing);
+  text-align: center;
+}
