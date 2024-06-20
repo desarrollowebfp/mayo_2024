@@ -25,8 +25,6 @@ for (let i = 0; i < numbers.length; i++) {
   counter += number;
 } 
 
-
-
 for (const number of numbers) {
   counter += number;
 }
