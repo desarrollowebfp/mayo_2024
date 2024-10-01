@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

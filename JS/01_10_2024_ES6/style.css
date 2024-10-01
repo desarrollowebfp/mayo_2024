@@ -1,0 +1,11 @@
+body {
+  align-items: center;
+  box-sizing: center;
+  display: flex;
+  flex: auto;
+  font-family: Arial;
+  font: 100;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
