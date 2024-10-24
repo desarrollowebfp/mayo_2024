@@ -1,0 +1,12 @@
+{
+  "movies": [
+    {
+      "title": "Ebola Rex",
+      "year": 2022,
+      "category": "B-Movie",
+      "poster": "https://m.media-amazon.com/images/I/91bdznOGqqL._AC_UF894,1000_QL80_.jpg",
+      "id": 1,
+      "director": "Paco"
+    }
+  ]
+}
