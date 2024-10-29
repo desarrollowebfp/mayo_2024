@@ -1,0 +1,11 @@
+{
+  "movies": [
+    {
+      "title": "Dune",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVhz6N7qAjv9PSoHvnDSi1NE8GQX5LE-zNIw&s",
+      "year": "2020",
+      "director": "Denis Villeneuve",
+      "id": 1
+    }
+  ]
+}
