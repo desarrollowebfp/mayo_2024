@@ -1,0 +1,19 @@
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+main img {
+  aspect-ratio: 1.1;
+  height: 200px;
+  object-fit: cover;
+}

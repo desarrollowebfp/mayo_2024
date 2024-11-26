@@ -1,0 +1,32 @@
+.avatar {
+  border: 2px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.avatar > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.avatar.sm {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.avatar.md {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar.xl {
+  width: 120px;
+  height: 120px;
+}

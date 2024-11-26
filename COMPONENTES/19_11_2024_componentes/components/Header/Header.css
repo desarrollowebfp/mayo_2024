@@ -1,0 +1,13 @@
+header {
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+}
