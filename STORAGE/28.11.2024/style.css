@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 4px 6px;
+}
+
+button {
+  border: 2px solid black;
+  background-color: white;
+  padding: 4px 6px;
+  transition: 0.4s;
+  color: black;
+}
+
+button:hover {
+  filter: invert(100%);
+}
+
+li{
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+  border: 1px dashed black;
+}
