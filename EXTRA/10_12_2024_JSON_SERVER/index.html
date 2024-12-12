@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>JSON Server</title>
+  </head>
+  <body>
+    <h1>Simulacion Login & Register</h1>
+    <form id="registerForm">
+      <label>Register</label>
+      <input type="text" id="usernameInput" placeholder="Username" required />
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="Password"
+        required
+      />
+      <input type="submit" value="Register" />
+    </form>
+    <form id="loginForm">
+      <label>Login</label>
+      <input
+        type="text"
+        id="usernameInputLogin"
+        placeholder="Username"
+        required
+      />
+      <input
+        type="password"
+        id="passwordInputLogin"
+        placeholder="Password"
+        required
+      />
+      <input type="submit" value="Login" />
+    </form>
+    <h3 id="result"></h3>
+    <button id="logoutBtn">Logout</button>
+  </body>
+</html>
