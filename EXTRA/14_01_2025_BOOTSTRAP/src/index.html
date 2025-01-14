@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap w/ Vite</title>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4 fw-bold">¡Bienvenido a BoostyFit!</h1>
+        <p class="lead">El mejor servicio de entrenamiento personalizado.</p>
+      </header>
+      <section class="my-5">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="p-3 border rounded">
+              <h3 class="fw-bold">Planes Flexibles</h3>
+              <p>Entrena a tu ritmo con planes adaptados a tus necesidades.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3 border rounded">
+              <h3 class="fw-bold">Entrenadores Expertos</h3>
+              <p>Accede a la experiencia de los mejores profesionales.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-3 border rounded">
+              <h3 class="fw-bold">Resultados Garantizados</h3>
+              <p>Logra tus objetivos con un enfoque científico.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
