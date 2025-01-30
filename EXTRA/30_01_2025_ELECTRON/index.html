@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Estilos oscuros y minimalistas */
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+        font-family: "Fira Code", "Courier New", monospace;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* Estilos para los inputs y textarea */
+      input,
+      select,
+      textarea,
+      button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        background-color: #161b22;
+        color: #c9d1d9;
+        border: 1px solid #30363d;
+        padding: 10px;
+        font-size: 16px;
+        font-family: "Fira Code", "Courier New", monospace;
+        border-radius: 5px;
+      }
+
+      /* Botón con estilo minimalista */
+      button {
+        background-color: #238636;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+      }
+
+      button:hover {
+        background-color: #2ea043;
+      }
+
+      /* Sección de snippets */
+      #snippets-list {
+        margin-top: 20px;
+        text-align: left;
+      }
+
+      /* Estilos para cada snippet */
+      .snippet {
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+      }
+
+      /* Títulos con emojis */
+      .snippet h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #c9d1d9;
+      }
+
+      /* Código con resaltado tipo GitHub */
+      .snippet pre {
+        background-color: #0d1117;
+        color: #c9d1d9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+        border: 1px solid #30363d;
+        font-size: 14px;
+      }
+    </style>
+    <title>Code Snippet Manager</title>
+  </head>
+  <body>
+    <h1>Code Snippet Manager</h1>
+    <input type="text" id="snippet-title" placeholder="Título del snippet" />
+    <select id="snippet-language">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+    </select>
+    <textarea
+      id="snippet-content"
+      placeholder="Escribe tu código aquí..."
+    ></textarea>
+    <button id="save-snippet">Guardar Snippet</button>
+
+    <h2>Snippets Guardados</h2>
+    <div id="snippets-list"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

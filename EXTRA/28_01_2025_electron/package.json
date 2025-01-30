@@ -1,0 +1,19 @@
+{
+  "name": "28_01_2025_electron",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "electron": "^34.0.1",
+    "electron-packager": "^17.1.2",
+    "vite": "^6.0.5"
+  }
+}

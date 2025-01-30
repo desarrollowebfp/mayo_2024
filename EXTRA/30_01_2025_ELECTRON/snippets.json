@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Creación de menú contextual en Electron",
+    "language": "javascript",
+    "content": "const menuTemplate = [\n  {\n    label: \"File\",\n    submenu: [\n      { label: \"Export Snippets\", click: exportSnippets },\n      { label: \"Quit\", click: () => app.quit() },\n    ],\n  },\n  {\n    label: \"Edit\",\n    submenu: [\n      { label: \"Cut\", role: \"cut\" },\n      { label: \"Copy\", role: \"copy\" },\n      { label: \"Paste\", role: \"paste\" },\n    ],\n  },\n];"
+  },
+  {
+    "title": "Botón verde minimalista",
+    "language": "css",
+    "content": "button {\n        background-color: #238636;\n        color: white;\n        border: none;\n        padding: 10px;\n        cursor: pointer;\n        transition: background 0.3s ease-in-out;\n      }"
+  }
+]

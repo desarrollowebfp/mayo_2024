@@ -1,0 +1,19 @@
+{
+  "name": "librerias",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "scrollreveal": "^4.0.9",
+    "tippy.js": "^6.3.7"
+  }
+}

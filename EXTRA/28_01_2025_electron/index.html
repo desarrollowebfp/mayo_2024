@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      #app {
+        max-width: 400px;
+        margin: 50px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      #timer {
+        font-size: 3rem;
+        margin: 20px 0;
+      }
+
+      button {
+        font-size: 1rem;
+        margin: 5px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #ff6347;
+        color: white;
+      }
+
+      button:hover {
+        background-color: #e5533d;
+      }
+    </style>
+    <div id="app">
+      <h1>Pomodoro Timer</h1>
+      <div id="timer">25:00</div>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
