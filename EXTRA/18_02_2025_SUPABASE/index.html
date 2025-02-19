@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="login_form">
+        <h1>Inicia sesión con Magic Link</h1>
+        <input
+          type="email"
+          placeholder="Correo electrónico"
+          required
+          id="email"
+        />
+        <button type="input">Enviar Magic Link</button>
+      </form>
+      <main>
+        <h2>Welcome to Supabase</h2>
+        <button id="logoutBtn">Logout</button>
+        <form id="upload-form">
+          <label for="file-input">Subir imagen</label>
+          <input type="file" id="file-input" accept="image/*" required />
+          <button type="submit">Subir Imagen</button>
+        </form>
+        <h2>Mi Galeria</h2>
+        <div id="gallery" class="gallery"></div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
