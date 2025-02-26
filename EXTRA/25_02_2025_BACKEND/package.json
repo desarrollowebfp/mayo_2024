@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Antonio Rosales Martínez <antoniorosalesmartinez90@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Este es un backend de prueba",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.2"
+  }
+}
