@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-console": "warn",                   // Advierte al usar console.log
+    "indent": ["error", 2],                 // Requiere indentación de 2 espacios
+    "quotes": ["error", "single"],          // Obliga al uso de comillas simples
+    "semi": ["error", "always"]             // Exige punto y coma al final de las sentencias
+  },
+  "settings": {
+    "react": {
+      "version": "detect"                   // Detecta automáticamente la versión de React
+    }
+  }
+}
