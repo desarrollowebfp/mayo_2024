@@ -1,0 +1,16 @@
+{
+  "name": "05_03_2025_webscraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Antonio Rosales Martínez <antoniorosalesmartinez90@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "19.7.2"
+  }
+}
